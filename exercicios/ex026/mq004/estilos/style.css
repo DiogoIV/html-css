@@ -24,17 +24,18 @@ body {
 }
 
 main {
-    background-color: rgba(255, 255, 255, 0.726);
+    background-color: #0029258a;
     width: 400px;
     margin: auto;
     margin-top: 20px;
     border-radius: 10px;
     padding: 10px;
+    
 }
 
 h1 {
     text-align: center;
-    color: white;
+    color: #09b9a8;
     font-size: 2em;
     text-shadow: 1px 1px 1px black;
 }
