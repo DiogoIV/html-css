@@ -7,10 +7,12 @@
     <style>
         div.conteiner{
             display: flex;
-            flex-flow: column;
+            flex-flow: row;
+            align-items: flex-start;
+            flex-wrap: wrap;
             height: 200px;
             background-color: orange;
-            align-items: flex-start;
+            
         }
         div.item {
             padding: 10px;
@@ -18,33 +20,18 @@
             border: 1px solid black;
         }
         div#i01 {
-            order: -1;
+            align-self: center;
+            flex-basis: 10px;
         }
         div#i02 {
-            align-self: center;
-        }
-        div#i03 {
-            align-self: flex-end;
-        }
-        div#i04 {
-            align-self: auto;
-        }
-        div#i05 {
-            align-self: center;
-        }
-        div#i06 {
-            order: 2;
-
-        }
-        div#i07 {
             
         }
-
-    </style>
+        
+        </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class ="item" id="i01">A</div>
+        <div class ="item" id="i01">AEEE</div>
         <div class ="item" id="i02">B</div>
         <div class ="item" id="i03">C</div>
         <div class ="item" id="i04">D</div>
