@@ -7,26 +7,32 @@
     <style>
         div.conteiner{
             display: flex;
+            align-items: flex-start;
+            justify-content: space-evenly;
             background-color: orange;
             flex-flow: row nowrap;
+            height: 100px;
         }
         div.item {
             background-color: aqua;
             border: 1px solid black;
             text-align: center;
-            flex-basis: 150px;
+            flex-basis: 50px;
         }
         #i01{
+           align-self: center;
             flex-grow: 0;
             flex-shrink: 1;
         }
         #i02{
-            flex-grow: 0;
-            flex-shrink: 0;
-        }
-        #i03{
+            align-self: flex-end;
             flex-grow: 0;
             flex-shrink: 2;
+        }
+        #i03{
+            align-self: center;
+            flex-grow: 0;  
+            flex-shrink: 3;
         }
     </style>
 </head>
